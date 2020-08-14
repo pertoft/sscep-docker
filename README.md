@@ -1,11 +1,9 @@
 # sscep-docker
 
-Dockerfile to build https://github.com/certnanny/sscep
-@author Per Abildgaard Toft <p@t1.dk>
-https://github.com/cpertoft/sscep-docker/
+Docker version of sscep from https://github.com/certnanny/sscep
 
+Docker hub: https://hub.docker.com/repository/docker/pertoft/sscep-docker
 
-Docker build for https://github.com/certnanny/sscep
 
 # Instructions
 Run a single command using:
