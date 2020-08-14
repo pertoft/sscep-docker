@@ -9,8 +9,10 @@ Docker build for https://github.com/certnanny/sscep
 
 # Instructions
 Run a single command using:
-`docker run -it sscep-docker sscep getca -c tmp/cacert -u http://yourhost/scep/scep`
+
+`docker run -it pertoft/sscep-docker:latest bash sscep getca -c tmp/cacert -u http://yourhost/scep/scep`
 
 Alternative you can jump into the container and run scep commands
-`docker run -it sscep-docker bash`
+`docker run -it pertoft/sscep-docker:latest bash`
+
 
